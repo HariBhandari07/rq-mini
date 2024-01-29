@@ -3,7 +3,6 @@ import {QueryClient, QueryClientProvider} from "./utils/react-query-lite.jsx";
 import A from "./components/A.jsx";
 
 const queryClient = new QueryClient()
-console.log(queryClient, 111111)
 
 function App() {
     return (
